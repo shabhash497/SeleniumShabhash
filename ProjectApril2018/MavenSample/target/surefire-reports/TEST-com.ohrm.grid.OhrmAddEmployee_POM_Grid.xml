@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.grid.OhrmAddEmployee_POM_Grid" time="2.093" tests="4" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS874"/>
+    <property name="java.class.path" value="D:\ProjectApril2018\MavenSample\target\test-classes;D:\ProjectApril2018\MavenSample\target\classes;C:\Users\ss00359827\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ss00359827\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ss00359827\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ss00359827\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ss00359827\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ss00359827\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ss00359827\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ss00359827\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ss00359827\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ss00359827\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ss00359827\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ss00359827\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ss00359827\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ss00359827\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ss00359827\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ss00359827\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ss00359827\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\ss00359827\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\ss00359827\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ss00359827\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\ss00359827\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ss00359827\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ss00359827\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ss00359827\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ss00359827\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\ss00359827\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ss00359827\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="nodeUrl" value="http://192.168.43.133:5555/wd/hub/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_152\bin"/>
+    <property name="sun.java.command" value="C:\Users\SS0035~1\AppData\Local\Temp\surefire6491075228184797488\surefirebooter1622598794491938046.jar C:\Users\ss00359827\AppData\Local\Temp\surefire6491075228184797488 2018-04-30T23-04-52_095-jvmRun1 surefire1248972832162622622tmp surefire_03851768251687298670tmp"/>
+    <property name="surefire.test.class.path" value="D:\ProjectApril2018\MavenSample\target\test-classes;D:\ProjectApril2018\MavenSample\target\classes;C:\Users\ss00359827\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ss00359827\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ss00359827\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ss00359827\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ss00359827\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ss00359827\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ss00359827\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ss00359827\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ss00359827\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ss00359827\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ss00359827\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ss00359827\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ss00359827\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ss00359827\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ss00359827\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ss00359827\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ss00359827\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\ss00359827\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\ss00359827\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\ss00359827\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ss00359827\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\ss00359827\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ss00359827\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ss00359827\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ss00359827\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\ss00359827\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ss00359827\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ss00359827\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\ss00359827\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ss00359827\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ss00359827"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_152"/>
+    <property name="basedir" value="D:\ProjectApril2018\MavenSample"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SS0035~1\AppData\Local\Temp\surefire6491075228184797488\surefirebooter1622598794491938046.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_152\lib\resources.jar;C:\Program Files\Java\jre1.8.0_152\lib\rt.jar;C:\Program Files\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_152\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_152\lib\jce.jar;C:\Program Files\Java\jre1.8.0_152\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_152\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_152\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="SS00359827"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_152\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="MS874"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="brName" value="chrome"/>
+    <property name="localRepository" value="C:\Users\ss00359827\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SS0035~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="D:\ProjectApril2018\MavenSample"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="appUrl" value="http://opensource.demo.orangehrmlive.com/"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;D:\oracle\product\10.1.0\Db_1\bin;D:\oracle\product\10.1.0\Db_1\jre\1.4.2\bin\client;D:\oracle\product\10.1.0\Db_1\jre\1.4.2\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ApacheMaven\apache-maven-3.5.2\bin;C:\Users\ss00359827\android-sdks\tools;C:\Users\ss00359827\android-sdks\platform-tools;C:\Users\ss00359827\android-sdks\tools\bin;C:\Program Files\Java\jre1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\sqldeveloper\sqldeveloper\sqldeveloper\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\PuTTY\;D:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_152\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="openApplication" classname="com.ohrm.grid.OhrmAddEmployee_POM_Grid" time="1.907">
+    <failure message="Unable to parse remote response: &lt;br /&gt;&#10;&lt;b&gt;Deprecated&lt;/b&gt;:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set &apos;always_populate_raw_post_data&apos; to &apos;-1&apos; in php.ini and use the php://input stream instead. in &lt;b&gt;Unknown&lt;/b&gt; on line &lt;b&gt;0&lt;/b&gt;&lt;br /&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&#10;    &#10;    &lt;head&gt;&#10;&#10;        &lt;title&gt;OrangeHRM&lt;/title&gt;&#10;        &#10;        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;&#10;                &#10;        &lt;link rel=&quot;shortcut icon&quot; href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/favicon.ico&quot; /&gt;&#10;        &#10;        &lt;!-- Library CSS files --&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/reset.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/tipTip.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery-ui-1.8.21.custom.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery.autocomplete.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &#10;        &lt;!-- Custom CSS files --&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/main.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &#10;        &lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/validate/jquery.validate.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.core.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.autocomplete.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/orangehrm.autocomplete.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.datepicker.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.form.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.tipTip.minified.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/bootstrap-modal.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.clickoutside.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/orangehrm.validate.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/archive.js&quot;&gt;&lt;/script&gt;&#10;   &#10;        &#10;        &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt;&#10;        &lt;!--[if lt IE 9]&gt;&#10;            &lt;script src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&#10;        &lt;![endif]--&gt;        &#10;&#10;&#10;&#10;    &lt;/head&gt;&#10;    &lt;body&gt;&#10;      &#10;        &lt;div id=&quot;wrapper&quot;&gt;&#10;            &#10;            &lt;div id=&quot;content&quot;&gt;&#10;&#10;                  &lt;style type=&quot;text/css&quot;&gt;&#10;&#10;    body {&#10;        background-color: #FFFFFF;&#10;        height: 700px;&#10;    }&#10;&#10;    img {&#10;        border: none;&#10;    }&#10;    #btnLogin {&#10;        padding: 0;&#10;    }&#10;    input:not([type=&quot;image&quot;]) {&#10;        background-color: transparent;&#10;        border: none;&#10;    }&#10;&#10;    input:focus, select:focus, textarea:focus {&#10;        background-color: transparent;&#10;        border: none;&#10;    }&#10;&#10;    .textInputContainer {&#10;        font-family: Arial, Helvetica, sans-serif;&#10;        font-size: 11px;&#10;        color: #666666;&#10;    }&#10;&#10;    #divLogin {&#10;        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/login.png) no-repeat center top;&#10;        height: 520px;&#10;        width: 100%;&#10;        border-style: hidden;&#10;        margin: auto;&#10;        padding-left: 10px;&#10;    }&#10;&#10;    #divUsername {&#10;        padding-top: 153px;&#10;        padding-left: 50%;&#10;    }&#10;&#10;    #divPassword {&#10;        padding-top: 35px;&#10;        padding-left: 50%;&#10;    }&#10;&#10;    #txtUsername {&#10;        width: 240px;&#10;        border: 0px;&#10;        background-color: transparent;&#10;    }&#10;&#10;    #txtPassword {&#10;        width: 240px;&#10;        border: 0px;&#10;        background-color: transparent;&#10;    }&#10;&#10;    #txtUsername, #txtPassword {&#10;        font-family: Arial, Helvetica, sans-serif;&#10;        font-size: 11px;&#10;        color: #666666;&#10;        vertical-align: middle;&#10;        padding-top:0;&#10;    }&#10;    &#10;    #divLoginHelpLink {&#10;        width: 270px;&#10;        background-color: transparent;&#10;        height: 20px;&#10;        margin-top: 12px;&#10;        margin-right: 0px;&#10;        margin-bottom: 0px;&#10;        margin-left: 50%;&#10;    }&#10;&#10;    #divLoginButton {&#10;        padding-top: 2px;&#10;        padding-left: 49.3%;&#10;        float: left;&#10;        width: 350px;&#10;    }&#10;&#10;    #btnLogin {&#10;        background: url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/Login_button.png) no-repeat;&#10;        cursor:pointer;&#10;        width: 94px;&#10;        height: 26px;&#10;        border: none;&#10;        color:#FFFFFF;&#10;        font-weight: bold;&#10;        font-size: 13px;&#10;    }&#10;&#10;    #divLink {&#10;        padding-left: 230px;&#10;        padding-top: 105px;&#10;        float: left;&#10;    }&#10;&#10;    #divLogo {&#10;        padding-left: 30%;&#10;        padding-top: 70px;&#10;    }&#10;&#10;    #spanMessage {&#10;        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/mark.png) no-repeat;&#10;        padding-left: 18px; &#10;        padding-top: 0px;&#10;        color: #DD7700;&#10;        font-weight: bold;&#10;    }&#10;    &#10;    #logInPanelHeading{&#10;        position:absolute;&#10;        padding-top:100px;&#10;		padding-left:49.5%;&#10;        font-family:sans-serif;&#10;        font-size: 15px;&#10;        color: #544B3C;&#10;        font-weight: bold;&#10;    }&#10;    &#10;    .form-hint {&#10;    color: #878787;&#10;    padding: 4px 8px;&#10;    position: relative;&#10;    left:-254px;&#10;}&#10;&#10;    &#10;&lt;/style&gt;&#10;&lt;div style=&quot;position: relative; top: 210px; left: 675px;&quot;&gt;&#10;            &lt;font style=&quot;color:red; font-weight:bold;&quot;&gt;( Username : Admin | Password : admin )&lt;/font&gt;&#10;        &lt;/div&gt;&#10;&lt;div id=&quot;divLogin&quot;&gt;&#10;    &lt;div id=&quot;divLogo&quot;&gt;&#10;        &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/logo.png&quot; /&gt;&#10;    &lt;/div&gt;&#10;&#10;    &lt;form id=&quot;frmLogin&quot; method=&quot;post&quot; action=&quot;/index.php/auth/validateCredentials&quot;&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;actionID&quot;/&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;hdnUserTimeZoneOffset&quot; id=&quot;hdnUserTimeZoneOffset&quot; value=&quot;0&quot; /&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;_csrf_token&quot; value=&quot;197bf9aba7f4abc48a613306e87f46d7&quot; id=&quot;csrf_token&quot; /&gt;        &lt;div id=&quot;logInPanelHeading&quot;&gt;LOGIN Panel&lt;/div&gt;&#10;&#10;        &lt;div id=&quot;divUsername&quot; class=&quot;textInputContainer&quot;&gt;&#10;            &lt;input name=&quot;txtUsername&quot; id=&quot;txtUsername&quot; type=&quot;text&quot; /&gt;          &lt;span class=&quot;form-hint&quot; &gt;Username&lt;/span&gt; &#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;divPassword&quot; class=&quot;textInputContainer&quot;&gt;&#10;            &lt;input name=&quot;txtPassword&quot; id=&quot;txtPassword&quot; type=&quot;password&quot; /&gt;         &lt;span class=&quot;form-hint&quot; &gt;Password&lt;/span&gt;&#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;divLoginHelpLink&quot;&gt;&lt;/div&gt;&#10;        &lt;div id=&quot;divLoginButton&quot;&gt;&#10;            &lt;input type=&quot;submit&quot; name=&quot;Submit&quot; class=&quot;button&quot; id=&quot;btnLogin&quot; value=&quot;LOGIN&quot; /&gt;&#10;                    &lt;/div&gt;&#10;    &lt;/form&gt;&#10;&#10;&lt;/div&gt;&#10;&#10;&lt;div style=&quot;text-align: center&quot;&gt;&#10;    &lt;div style=&quot;text-align: center;padding: 10px;&quot;&gt;&#10;    &lt;form id=&quot;openIDForm&quot; method=&quot;post&quot; action=&quot;/index.php/openidauth/openIdCredentials&quot; style=&quot;text-align: center&quot;&gt;&#10;&#10;            &lt;/form&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;style&gt;&#10;    #openID{&#10;        text-align: center;&#10;        padding: 5px;&#10;        margin-bottom: 5px;&#10;    }&#10;    #openIDForm{&#10;&#10;    }&#10;    #openIDForm input {&#10;        background-color: red;&#10;    }&#10;&lt;/style&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(document).ready(function() {&#10;        $(&apos;#openIdLogin&apos;).attr(&quot;disabled&quot;, &quot;disabled&quot;);&#10;        $(&apos;#openIdProvider&apos;).change(function() {&#10;            if ($(&quot;#openIdProvider option:selected&quot;).val() == &apos;&apos;) {&#10;                $(&apos;#openIdLogin&apos;).attr(&quot;disabled&quot;, &quot;disabled&quot;);&#10;            } else {&#10;                $(&apos;#openIdLogin&apos;).removeAttr(&apos;disabled&apos;);&#10;            }&#10;        });&#10;        &#10;        $(&apos;#openIdLogin&apos;).click(function(){          &#10;            $(&apos;#openIDForm&apos;).submit();&#10;        });&#10;    });&#10;&lt;/script&gt;&lt;/div&gt;&#10;&#10;&lt;div id=&quot;footer&quot; &gt;&#10;    &lt;div&gt;&#10;    OrangeHRM 3.3.1&lt;br/&gt;&#10;&amp;copy; 2005 - 2018 &lt;a href=&quot;http://www.orangehrm.com&quot; target=&quot;_blank&quot;&gt;OrangeHRM, Inc&lt;/a&gt;. All rights reserved.&#10;    &lt;/div&gt;&#10;    &lt;div id=&quot;social-icons&quot;&gt;&#10;        &lt;a href=&quot;http://www.linkedin.com/groups?home=&amp;amp;gid=891077&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/linkedin.png&quot; alt=&quot;LinkedIn OrangeHRM group&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://www.facebook.com/OrangeHRM&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/facebook.png&quot; alt=&quot;OrangeHRM on Facebook&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://twitter.com/orangehrm&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/twiter.png&quot; alt=&quot;OrangeHRM on twitter&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://www.youtube.com/orangehrm&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/youtube.png&quot; alt=&quot;OrangeHRM on youtube&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;    &#10;    function calculateUserTimeZoneOffset() {&#10;        var myDate = new Date();&#10;        var offset = (-1) * myDate.getTimezoneOffset() / 60;&#10;        return offset;&#10;    }&#10;            &#10;    function addHint(inputObject, hintImageURL) {&#10;        if (inputObject.val() == &apos;&apos;) {&#10;            inputObject.css(&apos;background&apos;, &quot;url(&apos;&quot; + hintImageURL + &quot;&apos;) no-repeat 10px 3px&quot;);&#10;        }&#10;    }&#10;            &#10;    function removeHint() {&#10;       $(&apos;.form-hint&apos;).css(&apos;display&apos;, &apos;none&apos;);&#10;    }&#10;    &#10;    function showMessage(message) {&#10;        if ($(&apos;#spanMessage&apos;).size() == 0) {&#10;            $(&apos;&lt;span id=&quot;spanMessage&quot;&gt;&lt;/span&gt;&apos;).insertAfter(&apos;#btnLogin&apos;);&#10;        }&#10;&#10;        $(&apos;#spanMessage&apos;).html(message);&#10;    }&#10;    &#10;    function validateLogin() {&#10;        var isEmptyPasswordAllowed = false;&#10;        &#10;        if ($(&apos;#txtUsername&apos;).val() == &apos;&apos;) {&#10;            showMessage(&apos;Username cannot be empty&apos;);&#10;            return false;&#10;        }&#10;        &#10;        if (!isEmptyPasswordAllowed) {&#10;            if ($(&apos;#txtPassword&apos;).val() == &apos;&apos;) {&#10;                showMessage(&apos;Password cannot be empty&apos;);&#10;                return false;&#10;            }&#10;        }&#10;        &#10;        return true;&#10;    }&#10;    &#10;    $(document).ready(function() {&#10;        /*Set a delay to compatible with chrome browser*/&#10;        setTimeout(checkSavedUsernames,100);&#10;        &#10;        $(&apos;#txtUsername&apos;).focus(function() {&#10;            removeHint();&#10;        });&#10;        &#10;        $(&apos;#txtPassword&apos;).focus(function() {&#10;             removeHint();&#10;        });&#10;        &#10;        $(&apos;.form-hint&apos;).click(function(){&#10;            removeHint();&#10;            $(&apos;#txtUsername&apos;).focus();&#10;        });&#10;        &#10;        $(&apos;#hdnUserTimeZoneOffset&apos;).val(calculateUserTimeZoneOffset().toString());&#10;        &#10;        $(&apos;#frmLogin&apos;).submit(validateLogin);&#10;        &#10;    });&#10;&#10;    function checkSavedUsernames(){&#10;        if ($(&apos;#txtUsername&apos;).val() != &apos;&apos;) {&#10;            removeHint();&#10;        }&#10;    }&#10;&#10;    if (window.top.location.href != location.href) {&#10;        window.top.location.href = location.href;&#10;    }&#10;&lt;/script&gt;&#10;&#10;            &lt;/div&gt; &lt;!-- content --&gt;&#10;          &#10;        &lt;/div&gt; &lt;!-- wrapper --&gt;&#10;        &#10; &#10;        &lt;script type=&quot;text/javascript&quot;&gt;&#10;&#10;            $(document).ready(function() {                            &#10;                &#10;                /* Enabling tooltips */&#10;                $(&quot;.tiptip&quot;).tipTip();&#10;&#10;                /* Toggling header menus */&#10;                $(&quot;#welcome&quot;).click(function () {&#10;                    $(&quot;#welcome-menu&quot;).slideToggle(&quot;fast&quot;);&#10;                    $(this).toggleClass(&quot;activated-welcome&quot;);&#10;                    return false;&#10;                });&#10;                &#10;                $(&quot;#help&quot;).click(function () {&#10;                    $(&quot;#help-menu&quot;).slideToggle(&quot;fast&quot;);&#10;                    $(this).toggleClass(&quot;activated-help&quot;);&#10;                    return false;&#10;                });&#10;                &#10;                $(&apos;.panelTrigger&apos;).outside(&apos;click&apos;, function() {&#10;                    $(&apos;.panelContainer&apos;).stop(true, true).slideUp(&apos;fast&apos;);&#10;                });                &#10;&#10;                /* &#10;                 * Button hovering effects &#10;                 * Note: we are not using pure css using :hover because :hover applies to even disabled elements.&#10;                 * The pseudo class :enabled is not supported in IE &lt; 9.&#10;                 */                &#10;                $(document).on({&#10;                    mouseenter: function () {&#10;                        $(this).addClass(&apos;hover&apos;);                        &#10;                    },&#10;                    mouseleave: function () {&#10;                        $(this).removeClass(&apos;hover&apos;);                        &#10;                    }&#10;&#10;                }, &apos;input[type=button], input[type=submit], input[type=reset]&apos;); &#10;  &#10;                /* Fading out main messages */&#10;                $(document).on({&#10;                    click: function() {&#10;                        $(this).parent(&apos;div.message&apos;).fadeOut(&quot;slow&quot;);&#10;                    }&#10;                }, &apos;.message a.messageCloseButton&apos;);                &#10;&#10;                /* Toggling search form: Begins */&#10;                //$(&quot;.toggableForm .inner&quot;).hide(); // Disabling this makes search forms to be expanded by default.&#10;&#10;                $(&quot;.toggableForm .toggle&quot;).click(function () {&#10;                    $(&quot;.toggableForm .inner&quot;).slideToggle(&apos;slow&apos;, function() {&#10;                        if($(this).is(&apos;:hidden&apos;)) {&#10;                            $(&apos;.toggableForm .tiptip&apos;).tipTip({content:&apos;Expand for Options&apos;});&#10;                        } else {&#10;                            $(&apos;.toggableForm .tiptip&apos;).tipTip({content:&apos;Hide Options&apos;});&#10;                        }&#10;                    });&#10;                    $(this).toggleClass(&quot;activated&quot;);&#10;                });&#10;                /* Toggling search form: Ends */&#10;&#10;                /* Enabling/disabling form fields: Begin */&#10;                &#10;                $(&apos;form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea&apos;).attr(&apos;disabled&apos;, &apos;disabled&apos;);&#10;                $(&apos;form.clickToEditForm input.calendar&apos;).datepicker(&apos;disable&apos;);&#10;                $(&apos;form.clickToEditForm input[type=button]&apos;).removeAttr(&apos;disabled&apos;);&#10;                &#10;                $(&apos;form input.editButton&apos;).click(function(){&#10;                    $(&apos;form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea&apos;).removeAttr(&apos;disabled&apos;);&#10;                    $(&apos;form.clickToEditForm input.calendar&apos;).datepicker(&apos;enable&apos;);&#10;                });&#10;                &#10;                /* Enabling/disabling form fields: End */&#10;                &#10;            });&#10;            &#10;        &lt;/script&gt;        &#10;&#10;    &lt;/body&gt;&#10;    &#10;&lt;/html&gt;&#10;&#10;&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;INHYIZLP12037&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <br />
+<b>Deprecated</b>:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in <b>Unknown</b> on line <b>0</b><br />
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+    <head>
+
+        <title>OrangeHRM</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                
+        <link rel="shortcut icon" href="/webres_5786257bd7c8a5.72130757/themes/default/images/favicon.ico" />
+        
+        <!-- Library CSS files -->
+        <link href="/webres_5786257bd7c8a5.72130757/themes/default/css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="/webres_5786257bd7c8a5.72130757/themes/default/css/tipTip.css" rel="stylesheet" type="text/css"/>
+        <link href="/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css"/>
+        <link href="/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery.autocomplete.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- Custom CSS files -->
+        <link href="/webres_5786257bd7c8a5.72130757/themes/default/css/main.css" rel="stylesheet" type="text/css"/>
+        
+        <script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/validate/jquery.validate.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.core.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/orangehrm.autocomplete.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.tipTip.minified.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/bootstrap-modal.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/jquery/jquery.clickoutside.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/orangehrm.validate.js"></script>
+<script type="text/javascript" src="/webres_5786257bd7c8a5.72130757/js/archive.js"></script>
+   
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->        
+
+
+
+    </head>
+    <body>
+      
+        <div id="wrapper">
+            
+            <div id="content">
+
+                  <style type="text/css">
+
+    body {
+        background-color: #FFFFFF;
+        height: 700px;
+    }
+
+    img {
+        border: none;
+    }
+    #btnLogin {
+        padding: 0;
+    }
+    input:not([type="image"]) {
+        background-color: transparent;
+        border: none;
+    }
+
+    input:focus, select:focus, textarea:focus {
+        background-color: transparent;
+        border: none;
+    }
+
+    .textInputContainer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #666666;
+    }
+
+    #divLogin {
+        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/login.png) no-repeat center top;
+        height: 520px;
+        width: 100%;
+        border-style: hidden;
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    #divUsername {
+        padding-top: 153px;
+        padding-left: 50%;
+    }
+
+    #divPassword {
+        padding-top: 35px;
+        padding-left: 50%;
+    }
+
+    #txtUsername {
+        width: 240px;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    #txtPassword {
+        width: 240px;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    #txtUsername, #txtPassword {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #666666;
+        vertical-align: middle;
+        padding-top:0;
+    }
+    
+    #divLoginHelpLink {
+        width: 270px;
+        background-color: transparent;
+        height: 20px;
+        margin-top: 12px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 50%;
+    }
+
+    #divLoginButton {
+        padding-top: 2px;
+        padding-left: 49.3%;
+        float: left;
+        width: 350px;
+    }
+
+    #btnLogin {
+        background: url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/Login_button.png) no-repeat;
+        cursor:pointer;
+        width: 94px;
+        height: 26px;
+        border: none;
+        color:#FFFFFF;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    #divLink {
+        padding-left: 230px;
+        padding-top: 105px;
+        float: left;
+    }
+
+    #divLogo {
+        padding-left: 30%;
+        padding-top: 70px;
+    }
+
+    #spanMessage {
+        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/mark.png) no-repeat;
+        padding-left: 18px; 
+        padding-top: 0px;
+        color: #DD7700;
+        font-weight: bold;
+    }
+    
+    #logInPanelHeading{
+        position:absolute;
+        padding-top:100px;
+		padding-left:49.5%;
+        font-family:sans-serif;
+        font-size: 15px;
+        color: #544B3C;
+        font-weight: bold;
+    }
+    
+    .form-hint {
+    color: #878787;
+    padding: 4px 8px;
+    position: relative;
+    left:-254px;
+}
+
+    
+</style>
+<div style="position: relative; top: 210px; left: 675px;">
+            <font style="color:red; font-weight:bold;">( Username : Admin | Password : admin )</font>
+        </div>
+<div id="divLogin">
+    <div id="divLogo">
+        <img src="/webres_5786257bd7c8a5.72130757/themes/default/images/login/logo.png" />
+    </div>
+
+    <form id="frmLogin" method="post" action="/index.php/auth/validateCredentials">
+        <input type="hidden" name="actionID"/>
+        <input type="hidden" name="hdnUserTimeZoneOffset" id="hdnUserTimeZoneOffset" value="0" />
+        <input type="hidden" name="_csrf_token" value="197bf9aba7f4abc48a613306e87f46d7" id="csrf_token" />        <div id="logInPanelHeading">LOGIN Panel</div>
+
+        <div id="divUsername" class="textInputContainer">
+            <input name="txtUsername" id="txtUsername" type="text" />          <span class="form-hint" >Username</span> 
+        </div>
+        <div id="divPassword" class="textInputContainer">
+            <input name="txtPassword" id="txtPassword" type="password" />         <span class="form-hint" >Password</span>
+        </div>
+        <div id="divLoginHelpLink"></div>
+        <div id="divLoginButton">
+            <input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN" />
+                    </div>
+    </form>
+
+</div>
+
+<div style="text-align: center">
+    <div style="text-align: center;padding: 10px;">
+    <form id="openIDForm" method="post" action="/index.php/openidauth/openIdCredentials" style="text-align: center">
+
+            </form>
+</div>
+
+<style>
+    #openID{
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    #openIDForm{
+
+    }
+    #openIDForm input {
+        background-color: red;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#openIdLogin').attr("disabled", "disabled");
+        $('#openIdProvider').change(function() {
+            if ($("#openIdProvider option:selected").val() == '') {
+                $('#openIdLogin').attr("disabled", "disabled");
+            } else {
+                $('#openIdLogin').removeAttr('disabled');
+            }
+        });
+        
+        $('#openIdLogin').click(function(){          
+            $('#openIDForm').submit();
+        });
+    });
+</script></div>
+
+<div id="footer" >
+    <div>
+    OrangeHRM 3.3.1<br/>
+&copy; 2005 - 2018 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.
+    </div>
+    <div id="social-icons">
+        <a href="http://www.linkedin.com/groups?home=&amp;gid=891077" target="_blank">
+            <img src="/webres_5786257bd7c8a5.72130757/themes/default/images/login/linkedin.png" alt="LinkedIn OrangeHRM group"/></a>&nbsp;
+        <a href="http://www.facebook.com/OrangeHRM" target="_blank">
+            <img src="/webres_5786257bd7c8a5.72130757/themes/default/images/login/facebook.png" alt="OrangeHRM on Facebook"/></a>&nbsp;
+        <a href="http://twitter.com/orangehrm" target="_blank">
+            <img src="/webres_5786257bd7c8a5.72130757/themes/default/images/login/twiter.png" alt="OrangeHRM on twitter"/></a>&nbsp;
+        <a href="http://www.youtube.com/orangehrm" target="_blank">
+            <img src="/webres_5786257bd7c8a5.72130757/themes/default/images/login/youtube.png" alt="OrangeHRM on youtube"/></a>&nbsp;
+    </div>
+</div>
+
+<script type="text/javascript">
+    
+    function calculateUserTimeZoneOffset() {
+        var myDate = new Date();
+        var offset = (-1) * myDate.getTimezoneOffset() / 60;
+        return offset;
+    }
+            
+    function addHint(inputObject, hintImageURL) {
+        if (inputObject.val() == '') {
+            inputObject.css('background', "url('" + hintImageURL + "') no-repeat 10px 3px");
+        }
+    }
+            
+    function removeHint() {
+       $('.form-hint').css('display', 'none');
+    }
+    
+    function showMessage(message) {
+        if ($('#spanMessage').size() == 0) {
+            $('<span id="spanMessage"></span>').insertAfter('#btnLogin');
+        }
+
+        $('#spanMessage').html(message);
+    }
+    
+    function validateLogin() {
+        var isEmptyPasswordAllowed = false;
+        
+        if ($('#txtUsername').val() == '') {
+            showMessage('Username cannot be empty');
+            return false;
+        }
+        
+        if (!isEmptyPasswordAllowed) {
+            if ($('#txtPassword').val() == '') {
+                showMessage('Password cannot be empty');
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+    $(document).ready(function() {
+        /*Set a delay to compatible with chrome browser*/
+        setTimeout(checkSavedUsernames,100);
+        
+        $('#txtUsername').focus(function() {
+            removeHint();
+        });
+        
+        $('#txtPassword').focus(function() {
+             removeHint();
+        });
+        
+        $('.form-hint').click(function(){
+            removeHint();
+            $('#txtUsername').focus();
+        });
+        
+        $('#hdnUserTimeZoneOffset').val(calculateUserTimeZoneOffset().toString());
+        
+        $('#frmLogin').submit(validateLogin);
+        
+    });
+
+    function checkSavedUsernames(){
+        if ($('#txtUsername').val() != '') {
+            removeHint();
+        }
+    }
+
+    if (window.top.location.href != location.href) {
+        window.top.location.href = location.href;
+    }
+</script>
+
+            </div> <!-- content -->
+          
+        </div> <!-- wrapper -->
+        
+ 
+        <script type="text/javascript">
+
+            $(document).ready(function() {                            
+                
+                /* Enabling tooltips */
+                $(".tiptip").tipTip();
+
+                /* Toggling header menus */
+                $("#welcome").click(function () {
+                    $("#welcome-menu").slideToggle("fast");
+                    $(this).toggleClass("activated-welcome");
+                    return false;
+                });
+                
+                $("#help").click(function () {
+                    $("#help-menu").slideToggle("fast");
+                    $(this).toggleClass("activated-help");
+                    return false;
+                });
+                
+                $('.panelTrigger').outside('click', function() {
+                    $('.panelContainer').stop(true, true).slideUp('fast');
+                });                
+
+                /* 
+                 * Button hovering effects 
+                 * Note: we are not using pure css using :hover because :hover applies to even disabled elements.
+                 * The pseudo class :enabled is not supported in IE < 9.
+                 */                
+                $(document).on({
+                    mouseenter: function () {
+                        $(this).addClass('hover');                        
+                    },
+                    mouseleave: function () {
+                        $(this).removeClass('hover');                        
+                    }
+
+                }, 'input[type=button], input[type=submit], input[type=reset]'); 
+  
+                /* Fading out main messages */
+                $(document).on({
+                    click: function() {
+                        $(this).parent('div.message').fadeOut("slow");
+                    }
+                }, '.message a.messageCloseButton');                
+
+                /* Toggling search form: Begins */
+                //$(".toggableForm .inner").hide(); // Disabling this makes search forms to be expanded by default.
+
+                $(".toggableForm .toggle").click(function () {
+                    $(".toggableForm .inner").slideToggle('slow', function() {
+                        if($(this).is(':hidden')) {
+                            $('.toggableForm .tiptip').tipTip({content:'Expand for Options'});
+                        } else {
+                            $('.toggableForm .tiptip').tipTip({content:'Hide Options'});
+                        }
+                    });
+                    $(this).toggleClass("activated");
+                });
+                /* Toggling search form: Ends */
+
+                /* Enabling/disabling form fields: Begin */
+                
+                $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').attr('disabled', 'disabled');
+                $('form.clickToEditForm input.calendar').datepicker('disable');
+                $('form.clickToEditForm input[type=button]').removeAttr('disabled');
+                
+                $('form input.editButton').click(function(){
+                    $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').removeAttr('disabled');
+                    $('form.clickToEditForm input.calendar').datepicker('enable');
+                });
+                
+                /* Enabling/disabling form fields: End */
+                
+            });
+            
+        </script>        
+
+    </body>
+    
+</html>
+
+
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INHYIZLP12037', ip: '192.168.43.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: RemoteWebDriver
+	at com.ohrm.grid.OhrmAddEmployee_POM_Grid.openApplication(OhrmAddEmployee_POM_Grid.java:16)
+]]></failure>
+    <system-err><![CDATA[Apr 30, 2018 11:04:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="Login" classname="com.ohrm.grid.OhrmAddEmployee_POM_Grid" time="0">
+    <skipped message="Unable to parse remote response: &lt;br /&gt;&#10;&lt;b&gt;Deprecated&lt;/b&gt;:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set &apos;always_populate_raw_post_data&apos; to &apos;-1&apos; in php.ini and use the php://input stream instead. in &lt;b&gt;Unknown&lt;/b&gt; on line &lt;b&gt;0&lt;/b&gt;&lt;br /&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&#10;    &#10;    &lt;head&gt;&#10;&#10;        &lt;title&gt;OrangeHRM&lt;/title&gt;&#10;        &#10;        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;&#10;                &#10;        &lt;link rel=&quot;shortcut icon&quot; href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/favicon.ico&quot; /&gt;&#10;        &#10;        &lt;!-- Library CSS files --&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/reset.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/tipTip.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery-ui-1.8.21.custom.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/jquery/jquery.autocomplete.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &#10;        &lt;!-- Custom CSS files --&gt;&#10;        &lt;link href=&quot;/webres_5786257bd7c8a5.72130757/themes/default/css/main.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;&#10;        &#10;        &lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/validate/jquery.validate.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.core.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.autocomplete.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/orangehrm.autocomplete.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.ui.datepicker.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.form.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.tipTip.minified.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/bootstrap-modal.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/jquery/jquery.clickoutside.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/orangehrm.validate.js&quot;&gt;&lt;/script&gt;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/webres_5786257bd7c8a5.72130757/js/archive.js&quot;&gt;&lt;/script&gt;&#10;   &#10;        &#10;        &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt;&#10;        &lt;!--[if lt IE 9]&gt;&#10;            &lt;script src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&#10;        &lt;![endif]--&gt;        &#10;&#10;&#10;&#10;    &lt;/head&gt;&#10;    &lt;body&gt;&#10;      &#10;        &lt;div id=&quot;wrapper&quot;&gt;&#10;            &#10;            &lt;div id=&quot;content&quot;&gt;&#10;&#10;                  &lt;style type=&quot;text/css&quot;&gt;&#10;&#10;    body {&#10;        background-color: #FFFFFF;&#10;        height: 700px;&#10;    }&#10;&#10;    img {&#10;        border: none;&#10;    }&#10;    #btnLogin {&#10;        padding: 0;&#10;    }&#10;    input:not([type=&quot;image&quot;]) {&#10;        background-color: transparent;&#10;        border: none;&#10;    }&#10;&#10;    input:focus, select:focus, textarea:focus {&#10;        background-color: transparent;&#10;        border: none;&#10;    }&#10;&#10;    .textInputContainer {&#10;        font-family: Arial, Helvetica, sans-serif;&#10;        font-size: 11px;&#10;        color: #666666;&#10;    }&#10;&#10;    #divLogin {&#10;        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/login.png) no-repeat center top;&#10;        height: 520px;&#10;        width: 100%;&#10;        border-style: hidden;&#10;        margin: auto;&#10;        padding-left: 10px;&#10;    }&#10;&#10;    #divUsername {&#10;        padding-top: 153px;&#10;        padding-left: 50%;&#10;    }&#10;&#10;    #divPassword {&#10;        padding-top: 35px;&#10;        padding-left: 50%;&#10;    }&#10;&#10;    #txtUsername {&#10;        width: 240px;&#10;        border: 0px;&#10;        background-color: transparent;&#10;    }&#10;&#10;    #txtPassword {&#10;        width: 240px;&#10;        border: 0px;&#10;        background-color: transparent;&#10;    }&#10;&#10;    #txtUsername, #txtPassword {&#10;        font-family: Arial, Helvetica, sans-serif;&#10;        font-size: 11px;&#10;        color: #666666;&#10;        vertical-align: middle;&#10;        padding-top:0;&#10;    }&#10;    &#10;    #divLoginHelpLink {&#10;        width: 270px;&#10;        background-color: transparent;&#10;        height: 20px;&#10;        margin-top: 12px;&#10;        margin-right: 0px;&#10;        margin-bottom: 0px;&#10;        margin-left: 50%;&#10;    }&#10;&#10;    #divLoginButton {&#10;        padding-top: 2px;&#10;        padding-left: 49.3%;&#10;        float: left;&#10;        width: 350px;&#10;    }&#10;&#10;    #btnLogin {&#10;        background: url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/Login_button.png) no-repeat;&#10;        cursor:pointer;&#10;        width: 94px;&#10;        height: 26px;&#10;        border: none;&#10;        color:#FFFFFF;&#10;        font-weight: bold;&#10;        font-size: 13px;&#10;    }&#10;&#10;    #divLink {&#10;        padding-left: 230px;&#10;        padding-top: 105px;&#10;        float: left;&#10;    }&#10;&#10;    #divLogo {&#10;        padding-left: 30%;&#10;        padding-top: 70px;&#10;    }&#10;&#10;    #spanMessage {&#10;        background: transparent url(/webres_5786257bd7c8a5.72130757/themes/default/images/login/mark.png) no-repeat;&#10;        padding-left: 18px; &#10;        padding-top: 0px;&#10;        color: #DD7700;&#10;        font-weight: bold;&#10;    }&#10;    &#10;    #logInPanelHeading{&#10;        position:absolute;&#10;        padding-top:100px;&#10;		padding-left:49.5%;&#10;        font-family:sans-serif;&#10;        font-size: 15px;&#10;        color: #544B3C;&#10;        font-weight: bold;&#10;    }&#10;    &#10;    .form-hint {&#10;    color: #878787;&#10;    padding: 4px 8px;&#10;    position: relative;&#10;    left:-254px;&#10;}&#10;&#10;    &#10;&lt;/style&gt;&#10;&lt;div style=&quot;position: relative; top: 210px; left: 675px;&quot;&gt;&#10;            &lt;font style=&quot;color:red; font-weight:bold;&quot;&gt;( Username : Admin | Password : admin )&lt;/font&gt;&#10;        &lt;/div&gt;&#10;&lt;div id=&quot;divLogin&quot;&gt;&#10;    &lt;div id=&quot;divLogo&quot;&gt;&#10;        &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/logo.png&quot; /&gt;&#10;    &lt;/div&gt;&#10;&#10;    &lt;form id=&quot;frmLogin&quot; method=&quot;post&quot; action=&quot;/index.php/auth/validateCredentials&quot;&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;actionID&quot;/&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;hdnUserTimeZoneOffset&quot; id=&quot;hdnUserTimeZoneOffset&quot; value=&quot;0&quot; /&gt;&#10;        &lt;input type=&quot;hidden&quot; name=&quot;_csrf_token&quot; value=&quot;197bf9aba7f4abc48a613306e87f46d7&quot; id=&quot;csrf_token&quot; /&gt;        &lt;div id=&quot;logInPanelHeading&quot;&gt;LOGIN Panel&lt;/div&gt;&#10;&#10;        &lt;div id=&quot;divUsername&quot; class=&quot;textInputContainer&quot;&gt;&#10;            &lt;input name=&quot;txtUsername&quot; id=&quot;txtUsername&quot; type=&quot;text&quot; /&gt;          &lt;span class=&quot;form-hint&quot; &gt;Username&lt;/span&gt; &#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;divPassword&quot; class=&quot;textInputContainer&quot;&gt;&#10;            &lt;input name=&quot;txtPassword&quot; id=&quot;txtPassword&quot; type=&quot;password&quot; /&gt;         &lt;span class=&quot;form-hint&quot; &gt;Password&lt;/span&gt;&#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;divLoginHelpLink&quot;&gt;&lt;/div&gt;&#10;        &lt;div id=&quot;divLoginButton&quot;&gt;&#10;            &lt;input type=&quot;submit&quot; name=&quot;Submit&quot; class=&quot;button&quot; id=&quot;btnLogin&quot; value=&quot;LOGIN&quot; /&gt;&#10;                    &lt;/div&gt;&#10;    &lt;/form&gt;&#10;&#10;&lt;/div&gt;&#10;&#10;&lt;div style=&quot;text-align: center&quot;&gt;&#10;    &lt;div style=&quot;text-align: center;padding: 10px;&quot;&gt;&#10;    &lt;form id=&quot;openIDForm&quot; method=&quot;post&quot; action=&quot;/index.php/openidauth/openIdCredentials&quot; style=&quot;text-align: center&quot;&gt;&#10;&#10;            &lt;/form&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;style&gt;&#10;    #openID{&#10;        text-align: center;&#10;        padding: 5px;&#10;        margin-bottom: 5px;&#10;    }&#10;    #openIDForm{&#10;&#10;    }&#10;    #openIDForm input {&#10;        background-color: red;&#10;    }&#10;&lt;/style&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(document).ready(function() {&#10;        $(&apos;#openIdLogin&apos;).attr(&quot;disabled&quot;, &quot;disabled&quot;);&#10;        $(&apos;#openIdProvider&apos;).change(function() {&#10;            if ($(&quot;#openIdProvider option:selected&quot;).val() == &apos;&apos;) {&#10;                $(&apos;#openIdLogin&apos;).attr(&quot;disabled&quot;, &quot;disabled&quot;);&#10;            } else {&#10;                $(&apos;#openIdLogin&apos;).removeAttr(&apos;disabled&apos;);&#10;            }&#10;        });&#10;        &#10;        $(&apos;#openIdLogin&apos;).click(function(){          &#10;            $(&apos;#openIDForm&apos;).submit();&#10;        });&#10;    });&#10;&lt;/script&gt;&lt;/div&gt;&#10;&#10;&lt;div id=&quot;footer&quot; &gt;&#10;    &lt;div&gt;&#10;    OrangeHRM 3.3.1&lt;br/&gt;&#10;&amp;copy; 2005 - 2018 &lt;a href=&quot;http://www.orangehrm.com&quot; target=&quot;_blank&quot;&gt;OrangeHRM, Inc&lt;/a&gt;. All rights reserved.&#10;    &lt;/div&gt;&#10;    &lt;div id=&quot;social-icons&quot;&gt;&#10;        &lt;a href=&quot;http://www.linkedin.com/groups?home=&amp;amp;gid=891077&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/linkedin.png&quot; alt=&quot;LinkedIn OrangeHRM group&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://www.facebook.com/OrangeHRM&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/facebook.png&quot; alt=&quot;OrangeHRM on Facebook&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://twitter.com/orangehrm&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/twiter.png&quot; alt=&quot;OrangeHRM on twitter&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;        &lt;a href=&quot;http://www.youtube.com/orangehrm&quot; target=&quot;_blank&quot;&gt;&#10;            &lt;img src=&quot;/webres_5786257bd7c8a5.72130757/themes/default/images/login/youtube.png&quot; alt=&quot;OrangeHRM on youtube&quot;/&gt;&lt;/a&gt;&amp;nbsp;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;    &#10;    function calculateUserTimeZoneOffset() {&#10;        var myDate = new Date();&#10;        var offset = (-1) * myDate.getTimezoneOffset() / 60;&#10;        return offset;&#10;    }&#10;            &#10;    function addHint(inputObject, hintImageURL) {&#10;        if (inputObject.val() == &apos;&apos;) {&#10;            inputObject.css(&apos;background&apos;, &quot;url(&apos;&quot; + hintImageURL + &quot;&apos;) no-repeat 10px 3px&quot;);&#10;        }&#10;    }&#10;            &#10;    function removeHint() {&#10;       $(&apos;.form-hint&apos;).css(&apos;display&apos;, &apos;none&apos;);&#10;    }&#10;    &#10;    function showMessage(message) {&#10;        if ($(&apos;#spanMessage&apos;).size() == 0) {&#10;            $(&apos;&lt;span id=&quot;spanMessage&quot;&gt;&lt;/span&gt;&apos;).insertAfter(&apos;#btnLogin&apos;);&#10;        }&#10;&#10;        $(&apos;#spanMessage&apos;).html(message);&#10;    }&#10;    &#10;    function validateLogin() {&#10;        var isEmptyPasswordAllowed = false;&#10;        &#10;        if ($(&apos;#txtUsername&apos;).val() == &apos;&apos;) {&#10;            showMessage(&apos;Username cannot be empty&apos;);&#10;            return false;&#10;        }&#10;        &#10;        if (!isEmptyPasswordAllowed) {&#10;            if ($(&apos;#txtPassword&apos;).val() == &apos;&apos;) {&#10;                showMessage(&apos;Password cannot be empty&apos;);&#10;                return false;&#10;            }&#10;        }&#10;        &#10;        return true;&#10;    }&#10;    &#10;    $(document).ready(function() {&#10;        /*Set a delay to compatible with chrome browser*/&#10;        setTimeout(checkSavedUsernames,100);&#10;        &#10;        $(&apos;#txtUsername&apos;).focus(function() {&#10;            removeHint();&#10;        });&#10;        &#10;        $(&apos;#txtPassword&apos;).focus(function() {&#10;             removeHint();&#10;        });&#10;        &#10;        $(&apos;.form-hint&apos;).click(function(){&#10;            removeHint();&#10;            $(&apos;#txtUsername&apos;).focus();&#10;        });&#10;        &#10;        $(&apos;#hdnUserTimeZoneOffset&apos;).val(calculateUserTimeZoneOffset().toString());&#10;        &#10;        $(&apos;#frmLogin&apos;).submit(validateLogin);&#10;        &#10;    });&#10;&#10;    function checkSavedUsernames(){&#10;        if ($(&apos;#txtUsername&apos;).val() != &apos;&apos;) {&#10;            removeHint();&#10;        }&#10;    }&#10;&#10;    if (window.top.location.href != location.href) {&#10;        window.top.location.href = location.href;&#10;    }&#10;&lt;/script&gt;&#10;&#10;            &lt;/div&gt; &lt;!-- content --&gt;&#10;          &#10;        &lt;/div&gt; &lt;!-- wrapper --&gt;&#10;        &#10; &#10;        &lt;script type=&quot;text/javascript&quot;&gt;&#10;&#10;            $(document).ready(function() {                            &#10;                &#10;                /* Enabling tooltips */&#10;                $(&quot;.tiptip&quot;).tipTip();&#10;&#10;                /* Toggling header menus */&#10;                $(&quot;#welcome&quot;).click(function () {&#10;                    $(&quot;#welcome-menu&quot;).slideToggle(&quot;fast&quot;);&#10;                    $(this).toggleClass(&quot;activated-welcome&quot;);&#10;                    return false;&#10;                });&#10;                &#10;                $(&quot;#help&quot;).click(function () {&#10;                    $(&quot;#help-menu&quot;).slideToggle(&quot;fast&quot;);&#10;                    $(this).toggleClass(&quot;activated-help&quot;);&#10;                    return false;&#10;                });&#10;                &#10;                $(&apos;.panelTrigger&apos;).outside(&apos;click&apos;, function() {&#10;                    $(&apos;.panelContainer&apos;).stop(true, true).slideUp(&apos;fast&apos;);&#10;                });                &#10;&#10;                /* &#10;                 * Button hovering effects &#10;                 * Note: we are not using pure css using :hover because :hover applies to even disabled elements.&#10;                 * The pseudo class :enabled is not supported in IE &lt; 9.&#10;                 */                &#10;                $(document).on({&#10;                    mouseenter: function () {&#10;                        $(this).addClass(&apos;hover&apos;);                        &#10;                    },&#10;                    mouseleave: function () {&#10;                        $(this).removeClass(&apos;hover&apos;);                        &#10;                    }&#10;&#10;                }, &apos;input[type=button], input[type=submit], input[type=reset]&apos;); &#10;  &#10;                /* Fading out main messages */&#10;                $(document).on({&#10;                    click: function() {&#10;                        $(this).parent(&apos;div.message&apos;).fadeOut(&quot;slow&quot;);&#10;                    }&#10;                }, &apos;.message a.messageCloseButton&apos;);                &#10;&#10;                /* Toggling search form: Begins */&#10;                //$(&quot;.toggableForm .inner&quot;).hide(); // Disabling this makes search forms to be expanded by default.&#10;&#10;                $(&quot;.toggableForm .toggle&quot;).click(function () {&#10;                    $(&quot;.toggableForm .inner&quot;).slideToggle(&apos;slow&apos;, function() {&#10;                        if($(this).is(&apos;:hidden&apos;)) {&#10;                            $(&apos;.toggableForm .tiptip&apos;).tipTip({content:&apos;Expand for Options&apos;});&#10;                        } else {&#10;                            $(&apos;.toggableForm .tiptip&apos;).tipTip({content:&apos;Hide Options&apos;});&#10;                        }&#10;                    });&#10;                    $(this).toggleClass(&quot;activated&quot;);&#10;                });&#10;                /* Toggling search form: Ends */&#10;&#10;                /* Enabling/disabling form fields: Begin */&#10;                &#10;                $(&apos;form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea&apos;).attr(&apos;disabled&apos;, &apos;disabled&apos;);&#10;                $(&apos;form.clickToEditForm input.calendar&apos;).datepicker(&apos;disable&apos;);&#10;                $(&apos;form.clickToEditForm input[type=button]&apos;).removeAttr(&apos;disabled&apos;);&#10;                &#10;                $(&apos;form input.editButton&apos;).click(function(){&#10;                    $(&apos;form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea&apos;).removeAttr(&apos;disabled&apos;);&#10;                    $(&apos;form.clickToEditForm input.calendar&apos;).datepicker(&apos;enable&apos;);&#10;                });&#10;                &#10;                /* Enabling/disabling form fields: End */&#10;                &#10;            });&#10;            &#10;        &lt;/script&gt;        &#10;&#10;    &lt;/body&gt;&#10;    &#10;&lt;/html&gt;&#10;&#10;&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;INHYIZLP12037&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="AddEmployee" classname="com.ohrm.grid.OhrmAddEmployee_POM_Grid" time="0">
+    <skipped message="Method OhrmAddEmployee_POM_Grid.AddEmployee()[pri:0, instance:com.ohrm.grid.OhrmAddEmployee_POM_Grid@1a407d53] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="closeApplication" classname="com.ohrm.grid.OhrmAddEmployee_POM_Grid" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

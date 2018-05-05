@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="groups">
+  <test name="testgroups">
+      <groups>
+         <run>
+         <include name="cars" />
+         <exclude name="scooter"/>
+         </run>
+      </groups>
+      <classes>
+         <class name="com.tng.basics.TestNGGroups" />
+      </classes>
+  </test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="22755" started-at="2018-04-30T09:43:09Z" finished-at="2018-04-30T09:43:32Z">
+    <groups>
+    </groups>
+    <test name="testname" duration-ms="22755" started-at="2018-04-30T09:43:09Z" finished-at="2018-04-30T09:43:32Z">
+      <class name="MavenGroup.MavenSample.OhrmAddEmployee">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:MavenGroup.MavenSample.OhrmAddEmployee@4f933fd1]" name="openApplication" is-config="true" duration-ms="11060" started-at="2018-04-30T16:43:09Z" finished-at="2018-04-30T16:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:MavenGroup.MavenSample.OhrmAddEmployee@4f933fd1]" name="Login" duration-ms="5310" started-at="2018-04-30T16:43:20Z" finished-at="2018-04-30T16:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AddEmployee()[pri:0, instance:MavenGroup.MavenSample.OhrmAddEmployee@4f933fd1]" name="AddEmployee" duration-ms="5401" started-at="2018-04-30T16:43:25Z" depends-on-methods="MavenGroup.MavenSample.OhrmAddEmployee.Login" finished-at="2018-04-30T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:MavenGroup.MavenSample.OhrmAddEmployee@4f933fd1]" name="closeApplication" is-config="true" duration-ms="968" started-at="2018-04-30T16:43:31Z" finished-at="2018-04-30T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- MavenGroup.MavenSample.OhrmAddEmployee -->
+    </test> <!-- testname -->
+  </suite> <!-- suite1 -->
+</testng-results>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1" parallel="tests">
+	<test name="testname1">
+	<classes>
+		<class name="MavenGroup.MavenSample.OhrmAddEmployee" />
+	</classes>
+	</test>
+	<test name="testname2">
+	<classes>
+		<class name="MavenGroup.MavenSample.OhrmAddEmployee_ReportMultiple" />
+	</classes>
+	</test>
+</suite>

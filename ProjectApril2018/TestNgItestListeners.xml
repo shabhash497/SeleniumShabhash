@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="groups">
+  <listeners>
+     <listener class-name="com.tng.listeners.ListenerITest"></listener>
+  </listeners>
+  <test name="testgroups">
+      <classes>
+         <class name="com.tng.listeners.TestCasesusingItestListeners" />
+      </classes>
+  </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [suite1]" parallel="tests">
+  <test name="testname2(failed)" parallel="tests">
+    <classes>
+      <class name="MavenGroup.MavenSample.OhrmAddEmployee_ReportMultiple">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="Login"/>
+          <include name="openApplication"/>
+          <include name="AddEmployee"/>
+        </methods>
+      </class> <!-- MavenGroup.MavenSample.OhrmAddEmployee_ReportMultiple -->
+    </classes>
+  </test> <!-- testname2(failed) -->
+</suite> <!-- Failed suite [suite1] -->

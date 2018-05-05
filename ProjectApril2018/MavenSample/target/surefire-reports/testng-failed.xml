@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.ohrm.grid.OhrmAddEmployee_POM_Grid">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="AddEmployee"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.ohrm.grid.OhrmAddEmployee_POM_Grid -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
