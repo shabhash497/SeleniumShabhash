@@ -4,6 +4,6 @@ interface InterfaceStaticMethods {
   int x=30;
   public void methodA();
   public static void intstaticmethod(){
-	System.out.println("Iam static method inside interface");  
+	System.out.println("Iam static method inside interface after modification");  
   }
 }
