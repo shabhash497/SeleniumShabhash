@@ -20,5 +20,6 @@ public class MainMethodOverridding {
     c.main(new String[3]);
     Parent pc = new Child();
     pc.main(new String[6]);
+    System.out.println();
 	}
 }
