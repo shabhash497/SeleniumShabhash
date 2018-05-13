@@ -1,6 +1,7 @@
 package com.java.basics;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class JavaArrays {
 
@@ -19,7 +20,7 @@ public class JavaArrays {
 		arrlst.add("Cherry");
 		arrlst.add(23);
 		arrlst.forEach(value -> System.out.println(value));
-		
+		Iterator<String> it  = arrlst.iterator();
 	}
 
 }

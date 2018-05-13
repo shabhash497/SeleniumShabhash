@@ -6,4 +6,7 @@ interface InterfaceStaticMethods {
   public static void intstaticmethod(){
 	System.out.println("Iam static method inside interface after modification");  
   }
+  default void intdefaultMethod(){
+	  System.out.println("Iam default method inside interface after modification");   
+  }
 }
