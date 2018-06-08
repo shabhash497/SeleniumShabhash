@@ -39,6 +39,9 @@ public class Test1 {
 	public void demo() {
 		 System.out.println("this is a test method");
 	  }
+	public void demosecond(){
+		System.out.println("this is a test2 method");
+	}
 	@Test
 	  public void demo1() {
 		  System.out.println("this is another test method");

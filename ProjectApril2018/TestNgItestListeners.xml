@@ -2,6 +2,7 @@
 <suite name="groups">
   <listeners>
      <listener class-name="com.tng.listeners.ListenerITest"></listener>
+     <listener class-name="com.tng.listeners.ListenerIInvokedMethod"></listener>
   </listeners>
   <test name="testgroups">
       <classes>

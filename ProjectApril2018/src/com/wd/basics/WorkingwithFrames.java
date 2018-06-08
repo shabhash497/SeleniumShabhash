@@ -32,6 +32,7 @@ public class WorkingwithFrames {
 		} catch (FindFailed e) {
 			System.out.println(e);
 		}*/
+		
         chrome.switchTo().defaultContent();
         chrome.findElement(By.xpath("//a[.='HOTELS ']")).click();
         chrome.close();

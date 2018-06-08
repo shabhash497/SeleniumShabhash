@@ -11,7 +11,8 @@ public class Navigations {
 		System.setProperty("webdriver.chrome.driver","D:/Selenium2018downloads/Browserdrivers/chromedriver_win32/chromedriver.exe");
 		WebDriver chrome=new ChromeDriver();
 		chrome.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		chrome.get("http://opensource.demo.orangehrmlive.com");
+		chrome.navigate().to("http://opensource.demo.orangehrmlive.com");
+		//chrome.get("http://opensource.demo.orangehrmlive.com");
 		chrome.manage().window().maximize();
 		Thread.sleep(2000);
 		chrome.navigate().to("http://google.co.in");

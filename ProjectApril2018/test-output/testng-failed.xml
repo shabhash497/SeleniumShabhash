@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tng.ohrm.OhrmAddEmployee_POM_DDTMultiple">
+      <class name="com.tng.basics.ExpectedConditionTest">
         <methods>
-          <include name="AddEmployee" invocation-numbers="0 1 2"/>
-          <include name="Login"/>
-          <include name="openApplication"/>
-          <include name="closeApplication"/>
+          <include name="conversion"/>
         </methods>
-      </class> <!-- com.tng.ohrm.OhrmAddEmployee_POM_DDTMultiple -->
+      </class> <!-- com.tng.basics.ExpectedConditionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

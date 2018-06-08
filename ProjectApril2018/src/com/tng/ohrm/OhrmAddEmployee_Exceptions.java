@@ -38,7 +38,6 @@ public class OhrmAddEmployee_Exceptions {
 	  public void closeApplication(){
 		  driver.quit();
 	  }
-
 	  @Test
 	  public void Login(){
 		  driver.manage().window().maximize();

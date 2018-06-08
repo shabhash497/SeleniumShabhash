@@ -18,13 +18,13 @@ public class OhrmIntPOMRemote {
  public void openApplicationinRemote(String brName, String appUrl,String nodeURL) throws MalformedURLException {
 	 switch (brName) {
 	case "chrome":
-		driver = new RemoteWebDriver(new URL(appUrl), DesiredCapabilities.chrome());
+		driver = new RemoteWebDriver(new URL(nodeURL), DesiredCapabilities.chrome());
 		break;
 	case "firefox":
-		driver = new RemoteWebDriver(new URL(appUrl), DesiredCapabilities.firefox());
+		driver = new RemoteWebDriver(new URL(nodeURL), DesiredCapabilities.firefox());
 		break;
 	case "ie":
-		driver = new RemoteWebDriver(new URL(appUrl), DesiredCapabilities.internetExplorer());
+		driver = new RemoteWebDriver(new URL(nodeURL), DesiredCapabilities.internetExplorer());
 		break;
 	default:
 		System.out.println("browser name not found");
