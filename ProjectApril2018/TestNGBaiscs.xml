@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suite1" >
-	<test name="testname">
-	<classes>
-		<class name="com.tng.basics.Test1" />
-		<class name="com.tng.basics.NewTest"/>
-	</classes>
-	</test>
-</suite>
